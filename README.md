@@ -39,40 +39,40 @@ There are several types of codes that you can use to enhance the game-play eleme
 
 ### Tetranglix: ab97c4173af22c083bf4a28cc732cc57 / https://github.com/shikhin/tetranglix/tree/85e65dba4a1c4569baef1275d5afe7859d626d03
 tetranglix_color.patch (color.png)
-* Just a pallet change to a brighter green environment
+* Just a pallet change to a brighter green environment <br>
 tetranglix_multiplier.patch (multiplier.png)
-* Makes score increment by 255 points instead of just 1 point per vertical movement
+* Makes score increment by 255 points instead of just 1 point per vertical movement <br>
 tetranglix_square.patch (rules.png)
-* This makes every tetronimo a square
+* This makes every tetronimo a square <br>
 tetranglix_score.patch (score.png)
-* This makes the top score 1,000, instead of 100,000
+* This makes the top score 1,000, instead of 100,000 <br>
 tetranglix_time.patch (time.png)
-* This makes the game slow down to half speed
+* This makes the game slow down to half speed <br>
 
 ### Invaders: 01d0277fdd7860ba12d350b0a49e734a / https://github.com/nanochess/Invaders/tree/0de3b3bb4ab03f1b9d4562e6ac05eec30f9c1168
 invaders_advancement.patch (rules.png)
-* Invaders advance down about a 1/3rd of the vertical distance for each horizontal swipe
-invaders_lives.patch (lives.png)
-* 127 lives instead of the original 4 lives
+* Invaders advance down about a 1/3rd of the vertical distance for each horizontal swipe <br>
+invaders_lives.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/lives.png>
+* 127 lives instead of the original 4 lives <br>
 invaders_speed.patch (speed.png)
-* Invaders move much slower than normal
+* Invaders move much slower than normal <br>
 
 ### fbird: e30ba26b36016aaf005e2b61c76606ec / https://github.com/nanochess/fbird/tree/7a7c27ac0081ea21b169964e2592a99d9b33eb9d
 fbird_faster.patch (speed.png, <img src=https://github.com/XlogicX/BootGenie/blob/master/expert.png>
-* The game plays much faster
+* The game plays much faster <br>
 fbird_morepipes.patch (score.png, <img src=https://github.com/XlogicX/BootGenie/blob/master/expert.png>
-* pipes come in much more frequently
+* pipes come in much more frequently <br>
 fbird_pipe.patch (rules.png)
-* rediculous clearance in each pipe
+* rediculous clearance in each pipe <br>
 
 ### tronsolitare:
 tronsolitare_highscore.patch (score.png)
-* Initializes the score to 0x0e00
+* Initializes the score to 0x0e00 <br>
 tronsolitare_speed.patch (speed.png)
-* Game plays at half speed
+* Game plays at half speed <br>
 tronsolitare_speed2.patch (speed.png)
-* Game plays at half speed and doesn't get incrementally faster
+* Game plays at half speed and doesn't get incrementally faster <br>
 tronsolitare_noclipping.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/invincible.png>
-* Bounds checking is off, you are invincible
+* Bounds checking is off, you are invincible <br>
 tronsolitare_lowscore.patch (socre.png)
-* Makes the winning highscore 0x2000 instead of 0xf600
+* Makes the winning highscore 0x2000 instead of 0xf600 <br>
