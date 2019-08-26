@@ -54,7 +54,7 @@ invaders_advancement.patch (rules.png)
 * Invaders advance down about a 1/3rd of the vertical distance for each horizontal swipe <br>
 invaders_lives.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/lives.png>
 * 127 lives instead of the original 4 lives <br>
-invaders_speed.patch (speed.png)
+invaders_speed.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png>
 * Invaders move much slower than normal <br>
 
 ### fbird: e30ba26b36016aaf005e2b61c76606ec / https://github.com/nanochess/fbird/tree/7a7c27ac0081ea21b169964e2592a99d9b33eb9d
@@ -68,9 +68,9 @@ fbird_pipe.patch (rules.png)
 ### tronsolitare:
 tronsolitare_highscore.patch (score.png)
 * Initializes the score to 0x0e00 <br>
-tronsolitare_speed.patch (speed.png)
+tronsolitare_speed.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png>
 * Game plays at half speed <br>
-tronsolitare_speed2.patch (speed.png)
+tronsolitare_speed2.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png>
 * Game plays at half speed and doesn't get incrementally faster <br>
 tronsolitare_noclipping.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/invincible.png>
 * Bounds checking is off, you are invincible <br>
