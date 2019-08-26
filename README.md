@@ -25,6 +25,16 @@ You can then flash to a real floppy drive or emulate in things such as Virtual B
 ## Code Symbols
 There are several types of codes that you can use to enhance the game-play elements with Boot Genie patches. Below are some quick visual cues as to what the code may do, and each code in the individual game sections will have further descriptions.
 
+<img src=https://github.com/XlogicX/BootGenie/blob/master/invincible.png>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/expert.png>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/lives.png>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/time.png>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/score.png>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/rules.png>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/multiplier.png>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/color.png>
+
 ## Games:
 
 ### Tetranglix: ab97c4173af22c083bf4a28cc732cc57 / https://github.com/shikhin/tetranglix/tree/85e65dba4a1c4569baef1275d5afe7859d626d03
