@@ -72,7 +72,7 @@ tronsolitare_speed.patch (speed.png)
     Game plays at half speed
 tronsolitare_speed2.patch (speed.png)
     Game plays at half speed and doesn't get incrementally faster
-tronsolitare_noclipping.patch (invincible.png)
+tronsolitare_noclipping.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/invincible.png>
     Bounds checking is off, you are invincible
 tronsolitare_lowscore.patch (socre.png)
     Makes the winning highscore 0x2000 instead of 0xf600
