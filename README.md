@@ -38,16 +38,16 @@ There are several types of codes that you can use to enhance the game-play eleme
 ## Games:
 
 ### Tetranglix: ab97c4173af22c083bf4a28cc732cc57 / https://github.com/shikhin/tetranglix/tree/85e65dba4a1c4569baef1275d5afe7859d626d03
-*tetranglix_color.patch (color.png)
-**Just a pallet change to a brighter green environment
-*tetranglix_multiplier.patch (multiplier.png)
-**Makes score increment by 255 points instead of just 1 point per vertical movement <br>
-*tetranglix_square.patch (rules.png)
-**This makes every tetronimo a square <br>
-*tetranglix_score.patch (score.png)
-**This makes the top score 1,000, instead of 100,000 <br>
-*tetranglix_time.patch (time.png)
-**This makes the game slow down to half speed <br>
+* tetranglix_color.patch (color.png)
+  * Just a pallet change to a brighter green environment
+* tetranglix_multiplier.patch (multiplier.png)
+  * Makes score increment by 255 points instead of just 1 point per vertical movement <br>
+* tetranglix_square.patch (rules.png)
+  * This makes every tetronimo a square <br>
+* tetranglix_score.patch (score.png)
+  * This makes the top score 1,000, instead of 100,000 <br>
+* tetranglix_time.patch (time.png)
+  * This makes the game slow down to half speed <br>
 
 ### Invaders: 01d0277fdd7860ba12d350b0a49e734a / https://github.com/nanochess/Invaders/tree/0de3b3bb4ab03f1b9d4562e6ac05eec30f9c1168
 invaders_advancement.patch (rules.png)
