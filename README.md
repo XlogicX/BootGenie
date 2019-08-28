@@ -25,16 +25,16 @@ You can then flash to a real floppy drive or emulate in things such as Virtual B
 ## Code Symbols
 There are several types of codes that you can use to enhance the game-play elements with Boot Genie patches. Below are some quick visual cues as to what the code may do, and each code in the individual game sections will have further descriptions.
 
-<img src=https://github.com/XlogicX/BootGenie/blob/master/invincible.png> - Invincibility
-<img src=https://github.com/XlogicX/BootGenie/blob/master/expert.png> - Harder Difficulty
-<img src=https://github.com/XlogicX/BootGenie/blob/master/lives.png> - More Lives
-<img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png> - Speed Modifications
-<img src=https://github.com/XlogicX/BootGenie/blob/master/time.png> - Time Modifications
-<img src=https://github.com/XlogicX/BootGenie/blob/master/score.png> - Score Modifications
-<img src=https://github.com/XlogicX/BootGenie/blob/master/rules.png> - Rule/Logic Changes
-<img src=https://github.com/XlogicX/BootGenie/blob/master/multiplier.png> - Multipliers
-<img src=https://github.com/XlogicX/BootGenie/blob/master/color.png> - Color/UI Changes
-<img src=https://github.com/XlogicX/BootGenie/blob/master/powerup.png> - Better/Improved Powerups
+<img src=https://github.com/XlogicX/BootGenie/blob/master/invincible.png> - Invincibility <br>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/expert.png> - Harder Difficulty <br>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/lives.png> - More Lives <br>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png> - Speed Modifications <br>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/time.png> - Time Modifications <br>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/score.png> - Score Modifications <br>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/rules.png> - Rule/Logic Changes <br>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/multiplier.png> - Multipliers <br>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/color.png> - Color/UI Changes <br>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/powerup.png> - Better/Improved Powerups <br>
 <img src=https://github.com/XlogicX/BootGenie/blob/master/level.png> - Level Changes
 
 ## Games:
@@ -98,3 +98,6 @@ There are several types of codes that you can use to enhance the game-play eleme
   * Makes game significantly slower
 * snake_speed3.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png>
   * Makes game nearly unplayably faster
+
+## Patch Tips
+* Try to keep patched version same amount of lines of code if possible, this allows for patches to be applied all at once and to not interfere with other patches/cheats.
