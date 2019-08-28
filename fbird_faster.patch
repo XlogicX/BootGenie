@@ -1,0 +1,33 @@
+--- fbird.asm
++++ fbird_faster.hak
+@@ -253,21 +253,21 @@
+         ; Wait for a frame
+         ;
+ wait_frame:
+-        mov ah,0x00     ; Use base clock tick
+-        int 0x1a
+-fb14:   push dx
+-        mov ah,0x00     ; Read again base clock tick
+-        int 0x1a
+-        pop bx
+-        cmp bx,dx       ; Wait for change
+-        jz fb14
++        mov al, 0x7f
++        delay: mov dx, 0xffff
++        fb14: dec dx
++        cmp dx, 0
++        jne fb14
++        dec al
++        cmp al, 0
++        jne delay
+         inc word [frame] ; Increase frame count
+         in al,(0x61)
+         and al,0xfc             ; Turn off sound
+         out (0x61),al
+         ret
+ 
+-        db "OTG"        ; 3 unused bytes
++        times 510 - ($ - $$)            db 0
+ 
+         db 0x55,0xaa    ; Bootable signature
+ 

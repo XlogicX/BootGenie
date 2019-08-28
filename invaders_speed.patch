@@ -1,0 +1,21 @@
+--- invaders.asm
++++ invaders_speed.hak
+@@ -198,12 +198,12 @@
+         pusha
+     %endif
+         jne in12
+-in22:
+-        mov ah,0x00           
+-        int 0x1a                ; BIOS clock read
+-        cmp dx,[old_time]       ; Wait for change
+-        je in22
+-        mov [old_time],dx       ; Save new current time
++in22: mov dx, 0xffff
++        delay: int 0x1a
++        int 0x1a
++        dec dx
++        cmp dx, 0
++        jne delay
+ in12:
+     %if 1
+         ;

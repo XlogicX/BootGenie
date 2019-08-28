@@ -1,0 +1,11 @@
+--- boot-man.asm
++++ boot-man_speed.hak
+@@ -185,7 +185,7 @@
+                                     ; modified code and data
+ 
+ .move_all:
+-    mov byte [si + pace_offset], 0x3; Reset the pace counter.
++    mov byte [si + pace_offset], 0xf; Reset the pace counter.
+ ;-----------------------------------------------------------------------------------------------------
+ ; Move Boot-Man
+ ;-----------------------------------------------------------------------------------------------------

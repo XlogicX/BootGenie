@@ -1,0 +1,11 @@
+--- tronsolitare.asm
++++ tronsolitare_speed.hak
+@@ -74,7 +74,7 @@
+       mov ax, bp        ;read data at coordinate
+       shr ax, 14        ;now value 0-3
+       neg ax
+-      add ax, 4         ;#CHEAT, default is 4; make amount higher for overall slower (but still progressive) game
++      add ax, 8         ;#CHEAT, default is 4; make amount higher for overall slower (but still progressive) game
+ 
+    mov bx, [0x046C]   ;Get timer state
+    add bx, ax        ;Wait 1-4 ticks (progressive difficulty)

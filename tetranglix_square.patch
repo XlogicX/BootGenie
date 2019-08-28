@@ -1,0 +1,23 @@
+--- tetranglix.asm
++++ tetranglix_square.hak
+@@ -141,13 +141,13 @@
+ 
+ ; All tetraminos in bitmap format.
+ tetraminos:
+-    db 0xF0;0b11110000   ; I
+-    db 0xE2;0b11100010   ; J
+-    db 0x2E;0b00101110   ; L
+-    db 0x66;0b01100110   ; O
+-    db 0x36;0b00110110   ; S
+-    db 0xE4;0b11100100   ; T
+-    db 0x63;0b01100011   ; Z
++    db 0x66;0b01100110   ; O
++    db 0x66;0b01100110   ; O
++    db 0x66;0b01100110   ; O
++    db 0x66;0b01100110   ; O
++    db 0x66;0b01100110   ; O
++    db 0x66;0b01100110   ; O
++    db 0x66;0b01100110   ; O
+ 
+ pop_check:
+     pop bp                   ; Save some bytes.

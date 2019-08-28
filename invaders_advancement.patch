@@ -1,0 +1,11 @@
+--- invaders.asm
++++ invaders_advancement.hak
+@@ -356,7 +356,7 @@
+         cmp ah,0x94             ; Border touched? (>= 0x94)
+         pop ax
+         jb in8                  ; No, jump
+-        or dh,22                ; Goes down by 11 pixels (11 * 2) must be odd
++        or dh,6                 ; Goes down by 11 pixels (11 * 2) must be odd
+ in8:    mov [si],ax
+         add ax,0x06*0x280+0x03*2        ; Offset for bullet
+         xchg ax,bx

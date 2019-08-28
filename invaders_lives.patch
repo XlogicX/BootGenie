@@ -1,0 +1,11 @@
+--- invaders.asm
++++ invaders_lives.hak
+@@ -85,7 +85,7 @@
+         mov ax,0xa000   ; Point to screen memory
+         mov ds,ax       ; Both DS...
+         mov es,ax       ; ...and ES
+-        mov ah,0x04
++        mov ah,0x7f
+         mov [level],ax  ; Level = 0, Lives = 4
+ restart_game:
+         xor ax,ax

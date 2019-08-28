@@ -1,0 +1,11 @@
+--- tronsolitare.asm
++++ tronsolitare_hiscore.hak
+@@ -58,7 +58,7 @@
+    jne fillin        ;If not, loop to next line
+ 
+    ;init the score
+-   mov bp, 0x0100    ;#CHEAT (You can set the initial score higher than this)
++   mov bp, 0xe000    ;#CHEAT (You can set the initial score higher than this)
+ 
+    ;Place the game peice in starting position
+    mov di, 0x07d1 ;starting position

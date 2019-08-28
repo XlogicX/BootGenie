@@ -1,0 +1,20 @@
+--- tetranglix.asm
++++ tetranglix_color.hak
+@@ -55,7 +55,7 @@
+ 
+     ; White spaces on black background.
+     xor di, di
+-    mov ax, 0x0F00
++    mov ax, 0x0200
+     mov cx, ax                   ; At least 80x25x2.
+     rep stosw
+     call pop_check
+@@ -366,7 +366,7 @@
+             push si
+ 
+             ; Add 24 characters padding in the front.
+-            mov ah, 0x0F
++            mov ah, 0x0A
+             mov di, 48
+             mov si, STACK
+ 

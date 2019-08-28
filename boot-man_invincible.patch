@@ -1,0 +1,29 @@
+--- boot-man.asm
++++ boot-man_invincible.hak
+@@ -268,7 +268,7 @@
+                                             ; Values are the same as those used by the newpos routine
+     mov dx, [bx + si + gh_offset_pos]       ; dx = current ghost position
+     cmp dx, [si]                            ; compare dx with Boot-Man position
+-    jne .ghost_ai_loop                      ; If they are equal,
++    jmp .ghost_ai_loop                      ; If they are equal,
+     mov [si + collision_offset], al         ; We store a non-zero value in the collision_detect flag
+                                             ; We use al here as we know it to be non-zero, and this reduces
+                                             ; code size compared to using a literal constant.
+@@ -329,7 +329,7 @@
+                                             ; an extra Boot-Man character may be drawn on screen.
+     mov dx, [bx + si + gh_offset_pos + gh_length]  ; dx = updated ghost position
+     cmp dx, [si]                            ; compare dx with Boot-Man's position
+-    jne .skip_collision                     ; and if they coincide,
++    jmp .skip_collision                     ; and if they coincide,
+     mov [si + collision_offset], al         ; set the collision detect flag to a non-zero value.
+ .skip_collision:
+     call get_screenpos                      ; find the address in video ram of the updated ghost position,
+@@ -348,7 +348,7 @@
+     jnz .ghosts_invisible                   ; If it is, ghosts are ethereal
+ 
+     cmp byte [si + collision_offset], bh    ; Ghosts are visible, so test for collisions
+-    jz .no_collision
++    jmp .no_collision
+ 
+     ; Ghosts are visible and collide with boot-man, therefore boot-man is dead
+     mov dx, [si]                            ; dx = current Boot-Man position

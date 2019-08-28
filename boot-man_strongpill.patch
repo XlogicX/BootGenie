@@ -1,0 +1,11 @@
+--- boot-man.asm
++++ boot-man_strongpill.hak
+@@ -206,7 +206,7 @@
+                                     ; 0x0f = black background, white foreground; 0x20 = space character
+     cmp byte [es:di], 0x04          ; Detect power pill
+     jnz .nopowerpill                
+-    mov byte [si + timer_offset], al; If Boot-Man just ate a power pill, set up the ghost timer to 0x20. We use al here
++    mov byte [si + timer_offset], 0xff; If Boot-Man just ate a power pill, set up the ghost timer to 0x20. We use al here
+                                     ; as it accidentally contains 0x20, and this is one byte shorter than having an 
+                                     ; explicit constant.
+ .nopowerpill:

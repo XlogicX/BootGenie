@@ -1,0 +1,11 @@
+--- tetranglix.asm
++++ tetranglix_score.hak
+@@ -16,7 +16,7 @@
+ UP_SCANCODE     EQU 72
+ DOWN_SCANCODE   EQU 80
+ 
+-SCORE_DIGITS    EQU 5
++SCORE_DIGITS    EQU 3
+ 
+ CPU 686
+ 

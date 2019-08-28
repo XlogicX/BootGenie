@@ -1,0 +1,11 @@
+--- fbird.asm
++++ fbird_morepipes.hak
+@@ -241,7 +241,7 @@
+         mov [pipe],ax
+         mov cl,3
+         shr ax,cl
+-        mov ah,0x50     ; Decrease distance between pipes
++        mov ah,0x10     ; Decrease distance between pipes
+         sub ah,al
+         cmp ah,0x10
+         ja fb11

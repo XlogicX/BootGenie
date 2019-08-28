@@ -1,0 +1,16 @@
+--- tronsolitare.asm
++++ tronsolitare_nopoison.hak
+@@ -259,10 +259,10 @@
+       and al, 0x07      ;get random 8 values
+       add al, 0x31      ;baseline
+       xchg cx, ax       ;cx has rand value
+-      rdtsc             ;random
++      ;rdtsc             ;random
+       ;background either 'A' or 'C' (light green or red)
+-         and ah, 0x20      ;keep bit 13
+-         add ah, 0xaf      ;turn bit 14 and 12 on
++         ;and ah, 0x20      ;keep bit 13
++         mov ah, 0xaf
+       mov al, cl        ;item-type + value
+ 
+       stosw             ;display it

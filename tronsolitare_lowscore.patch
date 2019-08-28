@@ -1,0 +1,11 @@
+--- tronsolitare.asm
++++ tronsolitare_lowscore.hak
+@@ -201,7 +201,7 @@
+       ;hitting a '7' bonus item after already getting more than 171
+       ;bonus items (2048 points for bonus, 514 points per move) would
+       ;make the score go from 0xf5ff to 0x0001.
+-   cmp bp, 0xf600    ;is the score high enough to 'win' ;#CHEAT
++   cmp bp, 0x2000    ;is the score high enough to 'win' ;#CHEAT
+    ja win
+ mov ax, bp
+ mov di, 0f02h

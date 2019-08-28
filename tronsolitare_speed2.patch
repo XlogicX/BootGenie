@@ -1,0 +1,13 @@
+--- tronsolitare.asm
++++ tronsolitare_speed2.hak
+@@ -77,8 +77,8 @@
+       add ax, 4         ;#CHEAT, default is 4; make amount higher for overall slower (but still progressive) game
+ 
+    mov bx, [0x046C]   ;Get timer state
+-   add bx, ax        ;Wait 1-4 ticks (progressive difficulty)
+-   ;add bx, 8          ;unprogressively slow cheat #CHEAT (comment above line out and uncomment this line)
++   ;add bx, ax        ;Wait 1-4 ticks (progressive difficulty)
++   add bx, 8          ;unprogressively slow cheat #CHEAT (comment above line out and uncomment this line)
+    delay:
+       cmp [0x046C], bx
+       jb delay

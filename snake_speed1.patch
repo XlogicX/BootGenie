@@ -1,0 +1,11 @@
+--- snake.asm
++++ snake_speed1.hak
+@@ -113,7 +113,7 @@
+ 	mov ebx, eax
+ 	sub eax, [clockticks]
+ 	
+-	cmp eax, 3 ; Delay of 3 clock ticks (18.2 ticks per second)
++	cmp eax, 10 ; Delay of 3 clock ticks (18.2 ticks per second)
+ 	jl .delay
+ 
+ 	mov [clockticks], ebx

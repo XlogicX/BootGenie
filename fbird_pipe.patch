@@ -1,0 +1,22 @@
+--- fbird.asm
++++ fbird_pipe.hak
+@@ -206,8 +206,8 @@
+         ja fb6
+         jne fb8
+         in al,(0x40)    ; Get "random" number
+-        and ax,0x0007   ; Between 0 and 7
+-        add al,0x04     ; Between 4 and 11
++        and ax,0x0003   ; Between 0 and 7
++        add al,0x01     ; Between 1 and 4
+         mov [tall],ax   ; This will tell how tall the pipe is
+ fb8:    mov cx,[tall]
+         or bx,bx        ; Rightmost?
+@@ -225,7 +225,7 @@
+         loop fb9
+         mov al,0xc4
+         stosw
+-        add di,0x009e*6+10
++        add di,0x009e*16+28
+         mov al,0xdf     
+         stosw
+         add di,0x009e

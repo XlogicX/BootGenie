@@ -1,0 +1,25 @@
+--- tronsolitare.asm
++++ tronsolitare_noclipping.hak
+@@ -131,14 +131,14 @@
+ 
+       ;Did we Lose?
+          ;#CHEAT: comment out all 4 of these checks (8 instructions) to be invincible
+-         cmp ax, 0x2f20    ;did we land on green (self)?
+-         je gameover           
+-         cmp ax, 0x1f20    ;did we land on blue (border)?
+-         je gameover
+-         cmp di, 0x0f00    ;did we land in score coordinate?
+-         jnb gameover
+-         cmp ax, 0xcf37    ;magic red 7
+-         je gameover
++         ;cmp ax, 0x2f20    ;did we land on green (self)?
++         ;je gameover           
++         ;cmp ax, 0x1f20    ;did we land on blue (border)?
++         ;je gameover
++         ;cmp di, 0x0f00    ;did we land in score coordinate?
++         ;jnb gameover
++         ;cmp ax, 0xcf37    ;magic red 7
++         ;je gameover
+ 
+       ;Score Changes
+          xchg ah, al

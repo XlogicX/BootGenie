@@ -1,0 +1,11 @@
+--- tetranglix.asm
++++ tetranglix_multiplier.hak
+@@ -306,7 +306,7 @@
+             jc .rotate_loop
+ 
+         .vertical_increment:
+-            mov cl, 1
++            mov cl, 255
+             call upd_score
+ 
+             ; Check if we can go below one byte, successfully.

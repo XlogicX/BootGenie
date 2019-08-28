@@ -1,0 +1,13 @@
+--- tetranglix.asm
++++ tetranglix_time.hak
+@@ -172,8 +172,8 @@
+         mov si, OFFSET
+ 
+         mov bx, [0x046C]
+-        inc bx
+-        inc bx              ; Wait for 2 PIT ticks.
++        ; Twice as slow
++        add bx, 4
+ 
+         .busy_loop:
+             cmp [0x046C], bx
