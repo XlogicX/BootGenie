@@ -25,11 +25,11 @@ You can then flash to a real floppy drive or emulate in things such as Virtual B
 ## Code Symbols
 There are several types of codes that you can use to enhance the game-play elements with Boot Genie patches. Below are some quick visual cues as to what the code may do, and each code in the individual game sections will have further descriptions.
 
-<img src=https://github.com/XlogicX/BootGenie/blob/master/invincible.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/expert.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/lives.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/time.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/score.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/rules.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/multiplier.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/color.png>
+<img src=https://github.com/XlogicX/BootGenie/blob/master/invincible.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/expert.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/lives.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/time.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/score.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/rules.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/multiplier.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/color.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/powerup.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/level.png>
 
 ## Games:
 
-### Tetranglix: ab97c4173af22c083bf4a28cc732cc57 / https://github.com/shikhin/tetranglix/tree/85e65dba4a1c4569baef1275d5afe7859d626d03
+### Tetranglix - https://github.com/shikhin/tetranglix/tree/85e65dba4a1c4569baef1275d5afe7859d626d03
 * tetranglix_color.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/color.png>
   * Just a pallet change to a brighter green environment
 * tetranglix_multiplier.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/multiplier.png>
@@ -41,7 +41,7 @@ There are several types of codes that you can use to enhance the game-play eleme
 * tetranglix_time.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/time.png>
   * This makes the game slow down to half speed <br>
 
-### Invaders: 01d0277fdd7860ba12d350b0a49e734a / https://github.com/nanochess/Invaders/tree/0de3b3bb4ab03f1b9d4562e6ac05eec30f9c1168
+### Invaders - https://github.com/nanochess/Invaders/tree/0de3b3bb4ab03f1b9d4562e6ac05eec30f9c1168
 * invaders_advancement.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/rules.png>
   * Invaders advance down about a 1/3rd of the vertical distance for each horizontal swipe <br>
 * invaders_lives.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/lives.png>
@@ -49,7 +49,7 @@ There are several types of codes that you can use to enhance the game-play eleme
 * invaders_speed.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png>
   * Invaders move much slower than normal <br>
 
-### fbird: e30ba26b36016aaf005e2b61c76606ec / https://github.com/nanochess/fbird/tree/7a7c27ac0081ea21b169964e2592a99d9b33eb9d
+### fbird - https://github.com/nanochess/fbird/tree/7a7c27ac0081ea21b169964e2592a99d9b33eb9d
 * fbird_faster.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/expert.png>
   * The game plays much faster <br>
 * fbird_morepipes.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/score.png> <img src=https://github.com/XlogicX/BootGenie/blob/master/expert.png>
@@ -57,7 +57,7 @@ There are several types of codes that you can use to enhance the game-play eleme
 * fbird_pipe.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/rules.png>
   * rediculous clearance in each pipe <br>
 
-### tronsolitare:
+### tronsolitare - https://github.com/XlogicX/tronsolitare/tree/37088a6498adab3deaa862ce6ffb25dbdd39606c
 * tronsolitare_highscore.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/score.png>
   * Initializes the score to 0x0e00 <br>
 * tronsolitare_speed.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png>
@@ -68,3 +68,5 @@ There are several types of codes that you can use to enhance the game-play eleme
   * Bounds checking is off, you are invincible <br>
 * tronsolitare_lowscore.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/score.png>
   * Makes the winning highscore 0x2000 instead of 0xf600 <br>
+* tronsolare_nopoison.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/powerup.png>
+  * Only good/green powerups will show up
