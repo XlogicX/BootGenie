@@ -66,6 +66,8 @@ There are several types of codes that you can use to enhance the game-play eleme
   * pipes come in much more frequently <br>
 * fbird_pipe.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/rules.png>
   * rediculous clearance in each pipe <br>
+* fbird_highscore.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/score.png>
+  * Sets initial score to 65532, may not play well with other patches
 
 ### tronsolitare - https://github.com/XlogicX/tronsolitare/tree/37088a6498adab3deaa862ce6ffb25dbdd39606c
 * tronsolitare_highscore.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/score.png>
