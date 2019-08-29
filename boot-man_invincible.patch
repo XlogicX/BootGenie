@@ -1,5 +1,5 @@
---- boot-man.asm
-+++ boot-man_invincible.hak
+--- boot-man.asm	1111-11-11 11:11:11.111111111 -1111
++++ boot-man_invincible.hak	1111-11-11 11:11:11.111111111 -1111
 @@ -268,7 +268,7 @@
                                              ; Values are the same as those used by the newpos routine
      mov dx, [bx + si + gh_offset_pos]       ; dx = current ghost position

@@ -1,0 +1,42 @@
+--- fbird.asm	1111-11-11 11:11:11.111111111 -1111
++++ fbird_hiscore.hak	1111-11-11 11:11:11.111111111 -1111
+@@ -31,7 +31,7 @@
+         stosw           ; next
+         mov al,0x60
+         stosw           ; bird
+-
++        mov word [score], 0xfff0
+         mov di,0x004a   ; Game title
+         mov ax,0x0f46   ; 'F' in white, good old ASCII
+         stosw
+@@ -160,9 +160,9 @@
+         out (0x42),al
+         mov al,0x4a
+         out (0x42),al
+-        in al,(0x61)
+-        or al,0x03      ; Turn on sound
+-        out (0x61),al
++        ;in al,(0x61)
++        ;or al,0x03      ; Turn on sound
++        ;out (0x61),al
+ fb26:   jmp fb12
+ 
+         ;
+@@ -262,13 +262,13 @@
+         cmp bx,dx       ; Wait for change
+         jz fb14
+         inc word [frame] ; Increase frame count
+-        in al,(0x61)
+-        and al,0xfc             ; Turn off sound
+-        out (0x61),al
++        ;in al,(0x61)
++        ;and al,0xfc             ; Turn off sound
++        ;out (0x61),al
+         ret
+ 
+         db "OTG"        ; 3 unused bytes
+-
++        times 510 - ($ - $$)            db 0
+         db 0x55,0xaa    ; Bootable signature
+ 
+ pipe:   equ 0x0fa0

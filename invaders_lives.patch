@@ -1,5 +1,5 @@
---- invaders.asm
-+++ invaders_lives.hak
+--- invaders.asm	1111-11-11 11:11:11.111111111 -1111
++++ invaders_lives.hak	1111-11-11 11:11:11.111111111 -1111
 @@ -85,7 +85,7 @@
          mov ax,0xa000   ; Point to screen memory
          mov ds,ax       ; Both DS...

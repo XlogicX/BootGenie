@@ -1,5 +1,5 @@
---- tronsolitare.asm
-+++ tronsolitare_lowscore.hak
+--- tronsolitare.asm	1111-11-11 11:11:11.111111111 -1111
++++ tronsolitare_lowscore.hak	1111-11-11 11:11:11.111111111 -1111
 @@ -201,7 +201,7 @@
        ;hitting a '7' bonus item after already getting more than 171
        ;bonus items (2048 points for bonus, 514 points per move) would

@@ -1,5 +1,5 @@
---- boot-man.asm
-+++ boot-man_level.hak
+--- boot-man.asm	1111-11-11 11:11:11.111111111 -1111
++++ boot-man_level.hak	1111-11-11 11:11:11.111111111 -1111
 @@ -104,7 +104,7 @@
  buildmaze:
      mov di, 0x0788                  ; Lower left corner of maze in video ram

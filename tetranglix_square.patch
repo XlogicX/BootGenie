@@ -1,5 +1,5 @@
---- tetranglix.asm
-+++ tetranglix_square.hak
+--- tetranglix.asm	1111-11-11 11:11:11.111111111 -1111
++++ tetranglix_square.hak	1111-11-11 11:11:11.111111111 -1111
 @@ -141,13 +141,13 @@
  
  ; All tetraminos in bitmap format.

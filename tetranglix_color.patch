@@ -1,5 +1,5 @@
---- tetranglix.asm
-+++ tetranglix_color.hak
+--- tetranglix.asm	1111-11-11 11:11:11.111111111 -1111
++++ tetranglix_color.hak	1111-11-11 11:11:11.111111111 -1111
 @@ -55,7 +55,7 @@
  
      ; White spaces on black background.

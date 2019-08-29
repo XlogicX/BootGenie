@@ -1,5 +1,5 @@
---- snake.asm
-+++ snake_speed3.hak
+--- snake.asm	1111-11-11 11:11:11.111111111 -1111
++++ snake_speed3.hak	1111-11-11 11:11:11.111111111 -1111
 @@ -113,7 +113,7 @@
  	mov ebx, eax
  	sub eax, [clockticks]

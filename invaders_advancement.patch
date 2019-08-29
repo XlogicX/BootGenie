@@ -1,5 +1,5 @@
---- invaders.asm
-+++ invaders_advancement.hak
+--- invaders.asm	1111-11-11 11:11:11.111111111 -1111
++++ invaders_advancement.hak	1111-11-11 11:11:11.111111111 -1111
 @@ -356,7 +356,7 @@
          cmp ah,0x94             ; Border touched? (>= 0x94)
          pop ax

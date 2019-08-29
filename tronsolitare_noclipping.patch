@@ -1,5 +1,5 @@
---- tronsolitare.asm
-+++ tronsolitare_noclipping.hak
+--- tronsolitare.asm	1111-11-11 11:11:11.111111111 -1111
++++ tronsolitare_noclipping.hak	1111-11-11 11:11:11.111111111 -1111
 @@ -131,14 +131,14 @@
  
        ;Did we Lose?
