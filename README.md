@@ -101,5 +101,14 @@ There are several types of codes that you can use to enhance the game-play eleme
 * snake_speed3.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png>
   * Makes game nearly unplayably faster
 
+### bootRogue - https://github.com/nanochess/bootRogue/blob/0cd0872245c9af69489b023e02411b7582657039/rogue.asm
+* bootRogue_hp.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/lives.png>
+  * Starting HP is 100 instead of 16 <br>
+* bootRogue_notraps.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/invincible.png>
+  * Traps can no longer hurt you <br>
+* bootRogue_lantern.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/level.png>
+  * Magic Lantern - whole dungeons visible <br>
+  
 ## Patch Tips
 * Try to keep patched version same amount of lines of code if possible, this allows for patches to be applied all at once and to not interfere with other patches/cheats.
+* The actual command I use to create a patch: diff -u game.asm game_feature.hak > game_feature.patch
