@@ -1,0 +1,11 @@
+--- rogue.asm	1111-11-11 11:11:11.111111111 -0000
++++ rogue_infgoodies.hak	1111-11-11 11:11:11.111111111 -0000
+@@ -253,7 +253,7 @@
+         cmp al,GR_WEAPON        ; GR_WEAPON?
+         ja battle               ; > it's a monster, go to battle
+         ; Only items at this part of code, so clean floor
+-        mov byte [di],GR_FLOOR  ; Delete item from floor
++        ;mov byte [di],GR_FLOOR  ; Delete item from floor
+         je weapon_found         ; = weapon found
+         ; 4 things to look for
+         cmp al,GR_ARMOR         ; GR_ARMOR?

@@ -1,0 +1,20 @@
+--- rogue.asm	1111-11-11 11:11:11.111111111 -0000
++++ rogue_bosses.hak	1111-11-11 11:11:11.111111111 -0000
+@@ -21,7 +21,7 @@
+         ; Revision date: Sep/27/2019. The COM file exits to DOS instead of halting.
+         ;
+ 
+-        CPU 8086
++        ;CPU 8086
+ 
+ ROW_WIDTH:      EQU 0x00A0      ; Width in bytes of each video row
+ BOX_MAX_WIDTH:  EQU 23          ; Max width of a room box
+@@ -355,7 +355,7 @@
+         ;
+ battle:
+         and al,0x1f     ; Separate number of monster (1-26)     
+-        shl al,1        ; Make it slightly harder
++        shl al,3        ; Make it slightly harder
+         mov ah,al       ; Use also as its HP
+         xchg ax,dx      ; Its attack is equivalent to its number
+         ; Player's attack

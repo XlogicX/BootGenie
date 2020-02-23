@@ -1,0 +1,11 @@
+--- rogue.asm	1111-11-11 11:11:11.111111111 -0000
++++ rogue_starving.hak	1111-11-11 11:11:11.111111111 -0000
+@@ -196,7 +196,7 @@
+         ;
+         push word [di]          ; Save character and attribute under 
+         mov word [di],HERO_COLOR*256+GR_HERO
+-        add byte [bp+starve],2  ; Cannot use INC because it needs Carry set
++        add byte [bp+starve],32  ; Cannot use INC because it needs Carry set
+         sbb ax,ax               ; HP down 1 each 128 steps
+         call add_hp             ; Update stats
+     ;   mov ah,0x00             ; Comes here with ah = 0

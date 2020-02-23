@@ -1,0 +1,11 @@
+--- rogue.asm	1111-11-11 11:11:11.111111111 -0000
++++ rogue_nobattle.hak	1111-11-11 11:11:11.111111111 -0000
+@@ -354,7 +354,7 @@
+         ; Let's battle!!!
+         ;
+ battle:
+-        and al,0x1f     ; Separate number of monster (1-26)     
++        ret             ; Nope, no battle    
+         shl al,1        ; Make it slightly harder
+         mov ah,al       ; Use also as its HP
+         xchg ax,dx      ; Its attack is equivalent to its number

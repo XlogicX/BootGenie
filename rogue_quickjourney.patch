@@ -1,0 +1,11 @@
+--- rogue.asm	1111-11-11 11:11:11.111111111 -0000
++++ rogue_quickjourney.hak	1111-11-11 11:11:11.111111111 -0000
+@@ -55,7 +55,7 @@
+ GR_GOLD:        EQU 0x0f        ; Gold graphic (asterisk, like brightness)
+ GR_WEAPON:      EQU 0x18        ; Weapon graphic (up arrow)
+ 
+-YENDOR_LEVEL:   EQU 26          ; Level of appearance for Amulet of Yendor
++YENDOR_LEVEL:   EQU 2           ; Dive to the depths of 1 more dungeon...
+ 
+     %ifdef com_file
+         org 0x0100
