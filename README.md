@@ -102,12 +102,27 @@ There are several types of codes that you can use to enhance the game-play eleme
   * Makes game nearly unplayably faster
 
 ### bootRogue - https://github.com/nanochess/bootRogue/blob/0cd0872245c9af69489b023e02411b7582657039/rogue.asm
-* bootRogue_hp.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/lives.png>
+* rogue_hp.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/lives.png>
   * Starting HP is 100 instead of 16 <br>
-* bootRogue_notraps.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/invincible.png>
+* rogue_notraps.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/invincible.png>
   * Traps can no longer hurt you <br>
-* bootRogue_lantern.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/level.png>
+* rogue_lantern.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/level.png>
   * Magic Lantern - whole dungeons visible <br>
+* rogue_bestfloor.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/level.png>
+  * Start on the best dungeon every time <br>
+* rogue_bosses.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/expert.png>
+  * Every enemy is like a boss, at quadruple the strength <br>
+* rogue_infgoodies.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/powerup.png>
+  * Good items don't disapear when picked up, giving an infinite supply <br>
+* rogue_nobattle.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/invincible.png>
+  * Enemies are now friends, they don't battle when you pass by <br>
+* rogue_quickjourney.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/rules.png>
+  * Amulet is now on the 2nd floor <br>
+* rogue_starving.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/expert.png>
+  * You now lose 1 HP every 8 moves, instead of 128 <br>  
+  
+  
+  
   
 ## Patch Tips
 * Try to keep patched version same amount of lines of code if possible, this allows for patches to be applied all at once and to not interfere with other patches/cheats.
