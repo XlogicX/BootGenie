@@ -120,10 +120,15 @@ There are several types of codes that you can use to enhance the game-play eleme
   * Amulet is now on the 2nd floor <br>
 * rogue_starving.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/expert.png>
   * You now lose 1 HP every 8 moves, instead of 128 <br>  
-  
-  
-  
-  
+
+### CodeGolf - https://github.com/taylor-hartman/codegolf](https://github.com/taylor-hartman/codegolf/blob/975de6a416cc37852e295c274ad6a3262d33f4d9/codegolf.asm
+* codegolf_bighole.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/powerup.png>
+  * The hole is 4x the area
+* codegolf_morepower.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/speed.png>
+  * ...or infinit power, ball never stops. Careful where you aim it; it could never reach the hole in an infinite loop
+* codegolf_mulligans.patch <img src=https://github.com/XlogicX/BootGenie/blob/master/lives.png>
+  * Infinite tries
+ 
 ## Patch Tips
 * Try to keep patched version same amount of lines of code if possible, this allows for patches to be applied all at once and to not interfere with other patches/cheats.
 * The actual command I use to create a patch: diff -u game.asm game_feature.hak > game_feature.patch
