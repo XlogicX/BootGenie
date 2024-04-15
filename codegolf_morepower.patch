@@ -1,0 +1,11 @@
+--- codegolf.asm	1111-11-11 11:11:11.111111111 -1111
++++ codegolfmorepower.asm	1111-11-11 11:11:11.111111111 -1111
+@@ -180,7 +180,7 @@
+     jmp skip_inc_bc_ball_still
+ 
+ ball_is_moving:
+-    inc dx ;if the ball is moving inc the timer
++    nop ;if the ball is moving inc the timer
+ skip_inc_bc_ball_still:
+ 
+ ;the collision does not work 100% of the time

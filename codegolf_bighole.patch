@@ -1,0 +1,20 @@
+--- codegolf.asm	1111-11-11 11:11:11.111111111 -1111
++++ codegolfbighole.asm	1111-11-11 11:11:11.111111111 -1111
+@@ -95,14 +95,14 @@
+     pop dx
+ 
+ draw_hole:
+-	mov cx, 7
++	mov cx, 14
+ 	mov al, 0x28
+ 	mov di, 165*320+265
+ draw_hole_loop:
+ 	push cx
+-	mov cx, 7
++	mov cx, 14
+ 	call draw_horizontal_line
+-	add di, 313
++	add di, 306
+ 	pop cx 
+ 	loop draw_hole_loop
+ 
